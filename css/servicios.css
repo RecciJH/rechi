@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.logo{
+  text-decoration: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.headerimg img{
+    display: flex;
+  align-items: center;
+  min-height: 80vh;
+  padding: 80px 0;
+  width:600px;
+  height: 1000px;
+}
+
+
+  .important .container .column {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  
+  }
+  .important .container{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+  }
+  
+  .important .image {
+   width: 500px;
+   margin-left: 236px;
+  }
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #24a876;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #4e4e4e;
+  display: block;
+  font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+  color: #24a876;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-txt {
+  margin-top: 30px;
+  text-align: center;
+  padding: 0 150px;
+  background-color: #fdfeff10;
+}
+
+.header-txt h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #6bfadb;
+  margin-bottom: 25px;
+}
+
+/**FOOTER**/
+
+.site-footer {
+  background-color: #132418;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-navigation a:hover {
+  color: #24a876;
+}
+.footer-navigation a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los iconos */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-disclaimer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-disclaimer p {
+  color: #ccc;
+  font-size: 16px;
+}
+
+.mejora img{
+    height: 500px;
+}
+
+.important h2{
+  text-align: center;
+}
+.mejora .container .column {
+  flex: 1; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: justify;
+
+}
+.mejora .container{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.mejora .image {
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+
+ 
+}
+
+#porqueservices{
+  background-color:#24a876;
+}
+#porqueservices h1{
+  text-align: center;
+  color: white;
+}
+.tarjetas-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.tarjeta{
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(226, 228, 228) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tarjeta p{
+  text-align: justify;
+}
+
+.incluyeservices {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/incluyeservices.jpg);
+
+  background-size: cover; 
+  background-position: center; 
+  width: 100%; 
+  height: 80vh; 
+
+}
+.incluye-content{
+  padding: 20px; 
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.incluye-content h1, .incluye-content p{
+  margin: 0;
+  text-align: left; /* Alinea el texto a la izquierda */
+  color: white;
+}
+
+.incluye-content h1{
+  font-size: 45px;
+}
+
+.incluye-content p{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.preguntas{
+  background-color: #277255;
+  text-align: center;
+  color: white;
+}
+.accordion .accordion-item button{
+  color: white;
+  background-color:#254e3e;
+  font-size: 20px;
+}
+
+.cotizaservice{
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 80%;
+  padding: 40px;
+  border: 3px solid black;
+}
+.cotizaservice p{
+  
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+#btncotizar{
+  border: 4px solid black;
+  padding: 30px;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+}
+.important-movil{
+  display: none;
+}
+
+.imagemovilmejora{
+  display: none;
+}
+/**RESPONSIVE DESIGN **/
+@media (max-width: 991px) {
+  
+  .header {
+    background-color: #1c7251;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    padding: 35px;
+  }
+  .menu {
+    padding: 20px;
+  }
+  
+  .menu label {
+    display: initial;
+  }
+  .logo{
+    color: white;
+  }
+  
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #56997ff5;
+    display: none;
+  }
+  .menu .navbar ul li a:hover {
+    color: #151521;
+  }
+  .menu .navbar ul li {
+    width: 100%;
+    color: #fcfbfb;
+  }
+  .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+  }
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
+ 
+
+  .header-txt {
+    padding: 0;
+    background-color: white;
+  }
+
+  .header-txt h1 {
+    font-size: 45px;
+  }
+  .important{
+    display: none;
+  }
+  .important-movil{
+    display: block;
+  }
+  .important-movil .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .important-movil .column {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .important-movil .image {
+    
+    margin: 5% auto;
+  }
+  #porqueservices{
+    background-color:#24a876;;
+  }
+  #porqueservices h1{
+    text-align: center;
+    color: white;
+  }
+  .tarjetas-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .tarjeta{
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: linear-gradient(
+      90deg,
+      rgb(226, 228, 228) 0%,
+      rgb(255, 255, 255) 100%
+    );
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .tarjeta p{
+    text-align: justify;
+  }
+
+  .incluyeservices {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/incluyeservices.jpg);
+  
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 90vh; 
+  
+  }
+  #btncotizar{
+    border: 4px solid black;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .mejora .container.mobile-reverse {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .mejora .column {
+    text-align: center;
+   
+  }
+
+  .mejora .image {
+    display: none;
+    margin: 0 auto;
+    max-width: 100%;
+   height: auto;
+  }
+  .imagemovilmejora {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+ .mejora .container .column {
+  flex: 1; 
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: justify;
+
+}
+.mejora .container{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.mejora .image {
+  max-width: 100%; 
+
+ 
+}
+}
